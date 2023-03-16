@@ -1,0 +1,7 @@
+{
+  "name": "ffmarket_menu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
