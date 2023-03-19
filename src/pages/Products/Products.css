@@ -1,0 +1,437 @@
+ion-header {
+    background-color: white;
+}
+
+ion-toolbar {
+    border-bottom: 1px solid #c8c7cc;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.toolbar .box {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar .back {
+    font-size: 26px;
+}
+
+.toolbar .pay {
+    display: flex;
+}
+
+.toolbar .pay img {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.toolbar .pay span {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.toolbar .qr {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.toolbar .cart {
+    position: relative;
+    padding-right: 5px;
+}
+
+.toolbar .cart .badge {
+    background: #015450;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbar .cart ion-icon {
+    font-size: 26px;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+.content .products {
+    padding: 15px;
+}
+
+.content .loading {
+    text-align: center;
+}
+
+.content label {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.content .provider {
+    display: flex;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-bottom: 1px solid #c8c7cc;
+}
+
+.content .provider .img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.content .provider .info {
+    margin-left: 10px;
+    width: 80%;
+}
+
+.content .provider .info .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.content .provider .info .description {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #696969;
+    line-height: 20px;
+    text-transform: capitalize;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .provider .info .badge {
+    background: #ecfbd4;
+    color: #62a781;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.content .provider .info .badge ion-icon {
+    margin-right: 4px;
+}
+
+.content .provider .qualification {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.content .provider .qualification span {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.content .provider .qualification ion-icon {
+    color: #f6c700;
+    font-size: 20px;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+}
+
+.content ul li {
+    display: flex;
+    padding: 15px 0px;
+    border-bottom: 1px solid #c8c7cc;
+}
+
+.content ul li:last-child {
+    border-bottom: none;
+}
+
+.content ul li .img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.content ul li .info {
+    margin-left: 10px;
+    color: #4a4a4a;
+    width: 100%;
+}
+
+.content ul li .info .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.content ul li .info .description {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.content ul li .info .icons {
+    justify-content: initial;
+}
+
+.content ul li .info .icons ion-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.content ul li .info .price {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.content ul li .info>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content ul li .info>div .badge {
+    width: 50px;
+}
+
+.content ul li .info>div .left {
+    display: flex;
+    align-items: center;
+}
+
+.content ul li .info>div .left .circle {
+    margin-right: 10px;
+    width: 120px;
+}
+
+.content ul li .info>div .right .select {
+    border: 1px solid #cacaca;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #767676;
+    font-size: 14px;
+}
+
+.select-month {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    background: #f9f9f9;
+}
+
+.select-month .left {
+    display: flex;
+    align-items: center;
+}
+
+.select-month .left ion-icon {
+    margin-left: 2px;
+}
+
+.select-month .right {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    text-transform: none;
+}
+
+.select-month .right ion-icon {
+    margin-right: 5px;
+}
+
+.calendar-full {
+    background: #fff;
+    width: 100%;
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 15px 10px 15px;
+    color: #4a4a4a;
+    background: #f9f9f9;
+    width: 100%;
+}
+
+.calendar.with-border {
+    border-bottom: 3px solid #015450;
+}
+
+.calendar .day {
+    width: 67px;
+}
+
+.calendar .day.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.calendar .day.selected .value {
+    background: #015450 !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.calendar .day.today .value {
+    background: #fce5ae;
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
+.calendar .day span {
+    display: block;
+}
+
+.calendar .day .name {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.calendar .day div {
+    display: flex;
+    justify-content: center;
+}
+
+.calendar .day div .value {
+    padding: 5px 0px;
+    font-size: 16px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.calendar .day div .value.completed:after {
+    content: '';
+    background: #87db3b;
+}
+
+.calendar .day div .value.pending:after {
+    content: '';
+    background: #f00;
+}
+
+.calendar .day div .value:after {
+    position: absolute;
+    margin-left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: flex;
+    border: 2px solid #f9f9f9;
+}
+
+.tabs {
+    display: flex;
+    overflow-x: scroll;
+    background: white;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.tabs .tabs-item {
+    text-align: center;
+    position: relative;
+    padding-right: 15px;
+}
+
+.tabs .tabs-item>div {
+    width: 70px;
+}
+
+.tabs .tabs-item.active {
+    color: #0ec254;
+}
+
+.tabs .tabs-item.active .check {
+    display: flex;
+}
+
+.tabs .tabs-item .check {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.tabs .tabs-item .check ion-icon {
+    font-size: 32px;
+}
+
+.tabs .tabs-item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.tabs .tabs-item span {
+    display: block;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+
+ion-content.disable {
+    --overflow: hidden;
+}
+
+.content.disable:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+ion-select {
+    width: 150px;
+}

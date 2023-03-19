@@ -1,0 +1,9 @@
+{
+  "framework": {
+    "key": "ionic",
+    "name": "Ionic",
+    "command": "ionic serve",
+    "envConfig": "--configuration="
+  },
+  "nodeVersion": "19.1.0"
+}
