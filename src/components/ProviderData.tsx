@@ -51,7 +51,7 @@ const ProviderData: React.FC<Props> = ({ categories, selectedDay }) => {
                 {
                   category.products.map((product) => (
                     <li key={product.id}>
-                      <img className="img" src={ product.imageList[0].downloadURL } alt={product.name} />
+                      <img className="img" src={ product.imageList[0]?.downloadURL ?? categories[0].imageURL } alt={product.name} />
                       <div className="info">
                         <p className="name">{product.name}</p>
                         <p className="price">{moneyCLP(Number(category.price))}</p>
